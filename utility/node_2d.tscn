@@ -1,0 +1,172 @@
+[gd_scene load_steps=14 format=3 uid="uid://bxbro28e8t8y"]
+
+[ext_resource type="Script" path="res://scripts/openexplorer.gd" id="1_r2h7v"]
+[ext_resource type="Script" path="res://scripts/xxx.gd" id="2_w30h4"]
+[ext_resource type="Script" path="res://scripts/browser.gd" id="3_raocm"]
+[ext_resource type="Script" path="res://scripts/github.gd" id="4_wnhiw"]
+[ext_resource type="Script" path="res://scripts/vk.gd" id="5_gips6"]
+[ext_resource type="Script" path="res://scripts/exit.gd" id="6_ytqu8"]
+[ext_resource type="Script" path="res://scripts/task.gd" id="7_yr0c4"]
+[ext_resource type="Script" path="res://scripts/powershell.gd" id="8_ngfki"]
+[ext_resource type="Script" path="res://scripts/defender.gd" id="9_oqdrv"]
+[ext_resource type="Script" path="res://scripts/regedit.gd" id="10_t8yde"]
+[ext_resource type="Script" path="res://info.gd" id="11_8fc8f"]
+[ext_resource type="Script" path="res://label_4.gd" id="12_g84i2"]
+[ext_resource type="Script" path="res://маму.gd" id="13_tkrb4"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CheckButton" type="CheckButton" parent="."]
+offset_left = 43.0
+offset_top = 328.0
+offset_right = 444.0
+offset_bottom = 366.0
+text = "Изменить тему приложения (в разработке)"
+
+[node name="Button" type="Button" parent="."]
+offset_left = 8.0
+offset_top = 3.0
+offset_right = 254.0
+offset_bottom = 107.0
+toggle_mode = true
+text = "Открыть CMD"
+script = ExtResource("1_r2h7v")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 696.0
+offset_top = 2.0
+offset_right = 734.0
+offset_bottom = 25.0
+text = "V.1.3"
+
+[node name="XXX" type="Button" parent="."]
+offset_left = 263.0
+offset_top = 3.0
+offset_right = 509.0
+offset_bottom = 107.0
+toggle_mode = true
+text = "Открыть Explorer"
+script = ExtResource("2_w30h4")
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 17.0
+offset_top = 370.0
+offset_right = 778.0
+offset_bottom = 393.0
+text = "Важно! Не спамьте кнопку \"открыть CMD\" в противном случае ваш ПК может выйти из строя"
+
+[node name="Label3" type="Label" parent="."]
+offset_left = 894.0
+offset_top = 369.0
+offset_right = 1153.0
+offset_bottom = 392.0
+text = "Утилита сделана в Godot Engine"
+
+[node name="browser" type="Button" parent="."]
+offset_left = 9.0
+offset_top = 114.0
+offset_right = 395.0
+offset_bottom = 173.0
+toggle_mode = true
+text = "Открыть браузер (откроет ссылку google.com)
+"
+script = ExtResource("3_raocm")
+
+[node name="github" type="Button" parent="."]
+offset_left = 755.0
+offset_top = 136.0
+offset_right = 1150.0
+offset_bottom = 216.0
+toggle_mode = true
+text = "Открыть наш Github❤
+"
+script = ExtResource("4_wnhiw")
+
+[node name="vk" type="Button" parent="."]
+offset_left = 757.0
+offset_top = 47.0
+offset_right = 1152.0
+offset_bottom = 127.0
+toggle_mode = true
+text = "VK разработчика"
+script = ExtResource("5_gips6")
+
+[node name="exit" type="Button" parent="."]
+offset_left = 957.0
+offset_top = 5.0
+offset_right = 1149.0
+offset_bottom = 39.0
+text = "Выйти из приложения"
+script = ExtResource("6_ytqu8")
+
+[node name="task" type="Button" parent="."]
+offset_left = 13.0
+offset_top = 180.0
+offset_right = 244.0
+offset_bottom = 239.0
+text = "Открыть диспетчер задач"
+script = ExtResource("7_yr0c4")
+
+[node name="powershell" type="Button" parent="."]
+offset_left = 268.0
+offset_top = 178.0
+offset_right = 492.0
+offset_bottom = 240.0
+text = "Открыть PowerShell"
+script = ExtResource("8_ngfki")
+
+[node name="defender" type="Button" parent="."]
+offset_left = 19.0
+offset_top = 248.0
+offset_right = 274.0
+offset_bottom = 328.0
+text = "открыть Microsoft Defender"
+script = ExtResource("9_oqdrv")
+
+[node name="regedit" type="Button" parent="."]
+offset_left = 292.0
+offset_top = 251.0
+offset_right = 523.0
+offset_bottom = 320.0
+text = "Открыть Редактор реестра"
+script = ExtResource("10_t8yde")
+
+[node name="info" type="Label" parent="."]
+offset_left = 68.0
+offset_top = 515.0
+offset_right = 190.0
+offset_bottom = 628.0
+script = ExtResource("11_8fc8f")
+
+[node name="инфа" type="Label" parent="."]
+offset_left = 16.0
+offset_top = 426.0
+offset_right = 351.0
+offset_bottom = 463.0
+text = "Ниже показана информация о вашем ПК
+"
+
+[node name="Memory" type="Label" parent="."]
+offset_left = 716.0
+offset_top = 448.0
+offset_right = 1022.0
+offset_bottom = 529.0
+script = ExtResource("12_g84i2")
+
+[node name="маму" type="Label" parent="."]
+offset_left = 464.928
+offset_top = 446.705
+offset_right = 504.928
+offset_bottom = 469.705
+script = ExtResource("13_tkrb4")
+
+[connection signal="pressed" from="Button" to="Button" method="_on_Button_pressed"]
+[connection signal="pressed" from="XXX" to="XXX" method="_on_XXX_pressed"]
+[connection signal="pressed" from="browser" to="browser" method="_on_browser_pressed"]
+[connection signal="pressed" from="github" to="github" method="_on_github_pressed"]
+[connection signal="pressed" from="vk" to="vk" method="_on_vk_pressed"]
+[connection signal="pressed" from="exit" to="exit" method="_on_exit_pressed"]
+[connection signal="pressed" from="task" to="task" method="_on_task_pressed"]
+[connection signal="pressed" from="powershell" to="powershell" method="_on_power_pressed"]
+[connection signal="pressed" from="defender" to="defender" method="_on_defender_pressed"]
+[connection signal="pressed" from="regedit" to="regedit" method="_on_regedit_pressed"]
