@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://shields.io" alt="Релиз">
-  <img src="https://shields.io" alt="Лицензия">
+  <img src="https://github.com/MaximErevanV3/UtilityFree/tree/main?tab=MIT-1-ov-file" alt="Лицензия">
 </p>
 
 **UtilityFree** — это бесплатная и быстрая системная утилита для Windows, созданная для упрощения работы с операционной системой. Она объединяет важные системные инструменты в одном удобном графическом интерфейсе, избавляя от необходимости искать их в дебрях настроек Windows.
