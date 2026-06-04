@@ -2,7 +2,6 @@
 
 <p align="center">
   <img src="https://shields.io" alt="Релиз">
-  <img src="https://shields.io" alt="Открытые тикеты">
   <img src="https://shields.io" alt="Лицензия">
 </p>
 
