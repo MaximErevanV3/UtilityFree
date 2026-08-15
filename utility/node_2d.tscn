@@ -4,7 +4,6 @@
 [ext_resource type="Script" path="res://scripts/xxx.gd" id="2_w30h4"]
 [ext_resource type="Script" path="res://scripts/browser.gd" id="3_raocm"]
 [ext_resource type="Script" path="res://scripts/github.gd" id="4_wnhiw"]
-[ext_resource type="Script" path="res://scripts/vk.gd" id="5_gips6"]
 [ext_resource type="Script" path="res://scripts/exit.gd" id="6_ytqu8"]
 [ext_resource type="Script" path="res://scripts/task.gd" id="7_yr0c4"]
 [ext_resource type="Script" path="res://scripts/powershell.gd" id="8_ngfki"]
