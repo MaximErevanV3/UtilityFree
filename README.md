@@ -30,7 +30,7 @@
 | Язык разработки | GDScript |
 | Платформа | Windows 7, 8, 10, 11 |
 | Размер программы | ~90 МБ |
-| Лицензия | [MIT License](https://github.com/MaximErevanV3/UtilityFree/tree/main?tab=MIT-1-ov-file) |
+| Лицензия | [GPLv3](https://github.com/MaximErevanV3/UtilityFree/blob/main/LICENSE) |
 
 ---
 
