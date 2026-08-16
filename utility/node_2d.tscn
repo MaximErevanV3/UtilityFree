@@ -1,171 +1,224 @@
-[gd_scene load_steps=14 format=3 uid="uid://bxbro28e8t8y"]
+[gd_scene format=3 uid="uid://bxbro28e8t8y"]
 
-[ext_resource type="Script" path="res://scripts/openexplorer.gd" id="1_r2h7v"]
-[ext_resource type="Script" path="res://scripts/xxx.gd" id="2_w30h4"]
-[ext_resource type="Script" path="res://scripts/browser.gd" id="3_raocm"]
-[ext_resource type="Script" path="res://scripts/github.gd" id="4_wnhiw"]
-[ext_resource type="Script" path="res://scripts/exit.gd" id="6_ytqu8"]
-[ext_resource type="Script" path="res://scripts/task.gd" id="7_yr0c4"]
-[ext_resource type="Script" path="res://scripts/powershell.gd" id="8_ngfki"]
-[ext_resource type="Script" path="res://scripts/defender.gd" id="9_oqdrv"]
-[ext_resource type="Script" path="res://scripts/regedit.gd" id="10_t8yde"]
-[ext_resource type="Script" path="res://info.gd" id="11_8fc8f"]
-[ext_resource type="Script" path="res://label_4.gd" id="12_g84i2"]
-[ext_resource type="Script" path="res://маму.gd" id="13_tkrb4"]
+[ext_resource type="Script" uid="uid://dwetfo1d1xmq5" path="res://scripts/openexplorer.gd" id="1_r2h7v"]
+[ext_resource type="FontFile" uid="uid://b0whtantq17wl" path="res://Themes/Fonts/Courier10PitchBoldWin95bt.ttf" id="2_ir8iy"]
+[ext_resource type="Script" uid="uid://d3adm3d2t5n5c" path="res://scripts/xxx.gd" id="2_w30h4"]
+[ext_resource type="Script" uid="uid://bki1ij8wlm3fn" path="res://scripts/browser.gd" id="3_raocm"]
+[ext_resource type="Script" uid="uid://0eplwcfspwbj" path="res://scripts/github.gd" id="4_wnhiw"]
+[ext_resource type="Script" uid="uid://6hxtr5hkk42h" path="res://scripts/exit.gd" id="6_ytqu8"]
+[ext_resource type="Script" uid="uid://wwha7grxpped" path="res://scripts/task.gd" id="7_yr0c4"]
+[ext_resource type="Script" uid="uid://d0vamafj5se1m" path="res://ne_block_open.gd" id="8_0h7mo"]
+[ext_resource type="Script" uid="uid://df5puloucmlw3" path="res://scripts/powershell.gd" id="8_ngfki"]
+[ext_resource type="Script" uid="uid://b36qlhp8fquld" path="res://scripts/defender.gd" id="9_oqdrv"]
+[ext_resource type="Script" uid="uid://bbk4m4vp6sq24" path="res://scripts/regedit.gd" id="10_t8yde"]
+[ext_resource type="Script" uid="uid://cfkhhr2buwwcd" path="res://scripts/start_up.gd" id="11_hqns4"]
+[ext_resource type="Script" uid="uid://bun6awqvkflw1" path="res://scripts/password_gen.gd" id="12_x0ka3"]
 
-[node name="Node2D" type="Node2D"]
+[node name="Node2D" type="Node2D" unique_id=42560991]
 
-[node name="CheckButton" type="CheckButton" parent="."]
-offset_left = 43.0
-offset_top = 328.0
-offset_right = 444.0
-offset_bottom = 366.0
-text = "Изменить тему приложения (в разработке)"
-
-[node name="Button" type="Button" parent="."]
-offset_left = 8.0
-offset_top = 3.0
-offset_right = 254.0
-offset_bottom = 107.0
+[node name="Button" type="Button" parent="." unique_id=224938780]
+offset_left = 1.0
+offset_top = 1.0
+offset_right = 126.0
+offset_bottom = 105.0
+theme_override_colors/font_color = Color(0.53333336, 0.99215686, 0.6431373, 1)
+theme_override_fonts/font = ExtResource("2_ir8iy")
 toggle_mode = true
 text = "Открыть CMD"
 script = ExtResource("1_r2h7v")
 
-[node name="Label" type="Label" parent="."]
-offset_left = 696.0
+[node name="Label" type="Label" parent="." unique_id=951571199]
+offset_left = 1598.0
 offset_top = 2.0
-offset_right = 734.0
-offset_bottom = 25.0
-text = "V.1.3"
+offset_right = 1812.0
+offset_bottom = 29.0
+theme_override_colors/font_color = Color(0.05490196, 0.09019608, 1, 1)
+theme_override_fonts/font = ExtResource("2_ir8iy")
+theme_override_font_sizes/font_size = 21
+text = "V.1.5 (Последняя)"
 
-[node name="XXX" type="Button" parent="."]
-offset_left = 263.0
-offset_top = 3.0
-offset_right = 509.0
-offset_bottom = 107.0
+[node name="XXX" type="Button" parent="." unique_id=21846226]
+offset_left = 131.0
+offset_top = 2.0
+offset_right = 294.0
+offset_bottom = 106.0
+theme_override_colors/font_color = Color(0.53333336, 0.99215686, 0.6431373, 1)
+theme_override_fonts/font = ExtResource("2_ir8iy")
 toggle_mode = true
 text = "Открыть Explorer"
 script = ExtResource("2_w30h4")
 
-[node name="Label2" type="Label" parent="."]
-offset_left = 17.0
-offset_top = 370.0
-offset_right = 778.0
-offset_bottom = 393.0
+[node name="Label2" type="Label" parent="." unique_id=984041401]
+offset_left = 42.0
+offset_top = 946.0
+offset_right = 1171.0
+offset_bottom = 987.0
+theme_override_colors/font_color = Color(1, 0.14509805, 0, 1)
+theme_override_fonts/font = ExtResource("2_ir8iy")
+theme_override_font_sizes/font_size = 22
 text = "Важно! Не спамьте кнопку \"открыть CMD\" в противном случае ваш ПК может выйти из строя"
 
-[node name="Label3" type="Label" parent="."]
-offset_left = 894.0
-offset_top = 369.0
-offset_right = 1153.0
-offset_bottom = 392.0
+[node name="Label3" type="Label" parent="." unique_id=179286692]
+offset_left = 1239.0
+offset_top = 1014.0
+offset_right = 1799.0
+offset_bottom = 1055.0
+theme_override_colors/font_color = Color(0.93402666, 0.5388911, 0.7956158, 1)
+theme_override_fonts/font = ExtResource("2_ir8iy")
+theme_override_font_sizes/font_size = 31
 text = "Утилита сделана в Godot Engine"
 
-[node name="browser" type="Button" parent="."]
-offset_left = 9.0
-offset_top = 114.0
-offset_right = 395.0
-offset_bottom = 173.0
+[node name="browser" type="Button" parent="." unique_id=522900132]
+offset_top = 109.0
+offset_right = 153.0
+offset_bottom = 176.0
+theme_override_colors/font_color = Color(0.48063022, 0.9641698, 0.9810769, 1)
+theme_override_fonts/font = ExtResource("2_ir8iy")
 toggle_mode = true
-text = "Открыть браузер (откроет ссылку google.com)
+text = "Открыть браузер
 "
 script = ExtResource("3_raocm")
 
-[node name="github" type="Button" parent="."]
-offset_left = 755.0
-offset_top = 136.0
-offset_right = 1150.0
-offset_bottom = 216.0
+[node name="github" type="Button" parent="." unique_id=1884551320]
+offset_left = 1695.0
+offset_top = 46.0
+offset_right = 1892.0
+offset_bottom = 126.0
+theme_override_colors/font_color = Color(0.9927164, 0.40310767, 0.5896566, 1)
+theme_override_fonts/font = ExtResource("2_ir8iy")
+theme_override_font_sizes/font_size = 17
 toggle_mode = true
 text = "Открыть наш Github❤
 "
 script = ExtResource("4_wnhiw")
 
-[node name="vk" type="Button" parent="."]
-offset_left = 757.0
-offset_top = 47.0
-offset_right = 1152.0
-offset_bottom = 127.0
-toggle_mode = true
-text = "VK разработчика"
-script = ExtResource("5_gips6")
-
-[node name="exit" type="Button" parent="."]
-offset_left = 957.0
-offset_top = 5.0
-offset_right = 1149.0
-offset_bottom = 39.0
-text = "Выйти из приложения"
+[node name="exit" type="Button" parent="." unique_id=2088965795]
+offset_left = 1851.0
+offset_top = 6.0
+offset_right = 1905.0
+offset_bottom = 37.0
+theme_override_colors/font_color = Color(0.9599013, 0.8815738, 0.45159048, 1)
+theme_override_fonts/font = ExtResource("2_ir8iy")
+theme_override_font_sizes/font_size = 17
+text = "Выйти"
 script = ExtResource("6_ytqu8")
 
-[node name="task" type="Button" parent="."]
-offset_left = 13.0
+[node name="task" type="Button" parent="." unique_id=483754686]
+offset_left = 1.0
 offset_top = 180.0
-offset_right = 244.0
+offset_right = 232.0
 offset_bottom = 239.0
+theme_override_colors/font_color = Color(0.48235294, 0.9647059, 0.98039216, 1)
+theme_override_fonts/font = ExtResource("2_ir8iy")
 text = "Открыть диспетчер задач"
 script = ExtResource("7_yr0c4")
 
-[node name="powershell" type="Button" parent="."]
-offset_left = 268.0
-offset_top = 178.0
-offset_right = 492.0
-offset_bottom = 240.0
+[node name="socialbutton" type="Button" parent="." unique_id=572807995]
+offset_left = 362.0
+offset_top = 114.0
+offset_right = 689.0
+offset_bottom = 173.0
+theme_override_colors/font_color = Color(0.48235294, 0.9647059, 0.98039216, 1)
+theme_override_fonts/font = ExtResource("2_ir8iy")
+text = "Открыть NeBlock (Социальная сеть)
+"
+script = ExtResource("8_0h7mo")
+
+[node name="powershell" type="Button" parent="." unique_id=512796920]
+offset_left = 157.0
+offset_top = 110.0
+offset_right = 339.0
+offset_bottom = 176.0
+theme_override_colors/font_color = Color(0.48235294, 0.9647059, 0.98039216, 1)
+theme_override_fonts/font = ExtResource("2_ir8iy")
 text = "Открыть PowerShell"
 script = ExtResource("8_ngfki")
 
-[node name="defender" type="Button" parent="."]
-offset_left = 19.0
-offset_top = 248.0
-offset_right = 274.0
-offset_bottom = 328.0
+[node name="defender" type="Button" parent="." unique_id=455140306]
+offset_left = 540.0
+offset_top = 1.0
+offset_right = 799.0
+offset_bottom = 99.0
+theme_override_colors/font_color = Color(0.53333336, 0.99215686, 0.6431373, 1)
+theme_override_fonts/font = ExtResource("2_ir8iy")
 text = "открыть Microsoft Defender"
 script = ExtResource("9_oqdrv")
 
-[node name="regedit" type="Button" parent="."]
-offset_left = 292.0
-offset_top = 251.0
-offset_right = 523.0
-offset_bottom = 320.0
+[node name="regedit" type="Button" parent="." unique_id=2081298589]
+offset_left = 297.0
+offset_top = 2.0
+offset_right = 537.0
+offset_bottom = 99.0
+theme_override_colors/font_color = Color(0.53333336, 0.99215686, 0.6431373, 1)
+theme_override_fonts/font = ExtResource("2_ir8iy")
 text = "Открыть Редактор реестра"
 script = ExtResource("10_t8yde")
 
-[node name="info" type="Label" parent="."]
-offset_left = 68.0
-offset_top = 515.0
-offset_right = 190.0
-offset_bottom = 628.0
-script = ExtResource("11_8fc8f")
+[node name="StartUp" type="Button" parent="." unique_id=821702052]
+offset_left = 802.0
+offset_top = -1.0
+offset_right = 1024.0
+offset_bottom = 98.0
+theme_override_colors/font_color = Color(0.5331072, 0.992956, 0.64289916, 1)
+theme_override_colors/font_outline_color = Color(0.6923623, 0.09550925, 0.35251904, 1)
+theme_override_fonts/font = ExtResource("2_ir8iy")
+text = "Автозапуск в Реестре"
+script = ExtResource("11_hqns4")
 
-[node name="инфа" type="Label" parent="."]
-offset_left = 16.0
-offset_top = 426.0
-offset_right = 351.0
-offset_bottom = 463.0
-text = "Ниже показана информация о вашем ПК
+[node name="ColorRect" type="ColorRect" parent="." unique_id=2024029764]
+anchors_preset = -1
+color = Color(1, 0.07058824, 1, 1)
+
+[node name="TextПароли" type="Label" parent="." unique_id=1777707246]
+offset_left = -1.0
+offset_top = 253.0
+offset_right = 275.0
+offset_bottom = 326.0
+theme_override_colors/font_color = Color(0.97782844, 0.4325943, 0.48109335, 1)
+theme_override_fonts/font = ExtResource("2_ir8iy")
+theme_override_font_sizes/font_size = 27
+text = "Генератор паролей
 "
 
-[node name="Memory" type="Label" parent="."]
-offset_left = 716.0
-offset_top = 448.0
-offset_right = 1022.0
-offset_bottom = 529.0
-script = ExtResource("12_g84i2")
+[node name="TextПаролиInfo" type="Label" parent="." unique_id=1208907650]
+offset_left = 7.0
+offset_top = 481.0
+offset_right = 799.0
+offset_bottom = 622.0
+theme_override_colors/font_color = Color(0.8759054, 0.49535882, 0.64865667, 1)
+theme_override_fonts/font = ExtResource("2_ir8iy")
+theme_override_font_sizes/font_size = 18
+text = "Подсказка: Сгенерированный пароль копируется автоматически в буфер обмена
+"
 
-[node name="маму" type="Label" parent="."]
-offset_left = 464.928
-offset_top = 446.705
-offset_right = 504.928
-offset_bottom = 469.705
-script = ExtResource("13_tkrb4")
+[node name="GenerateButton" type="Button" parent="." unique_id=952540450]
+offset_left = 6.0
+offset_top = 380.0
+offset_right = 294.0
+offset_bottom = 474.0
+theme_override_colors/font_color = Color(0.6869106, 0.09216521, 0.4933954, 1)
+theme_override_fonts/font = ExtResource("2_ir8iy")
+text = "Сгенерировать надежный пароль"
+script = ExtResource("12_x0ka3")
+
+[node name="PasswordLabel" type="Label" parent="." unique_id=1425162134]
+offset_left = 1.0
+offset_top = 311.0
+offset_right = 295.0
+offset_bottom = 366.0
+theme_override_colors/font_color = Color(0.9812134, 0.47305858, 0.4874001, 1)
+theme_override_fonts/font = ExtResource("2_ir8iy")
+theme_override_font_sizes/font_size = 21
 
 [connection signal="pressed" from="Button" to="Button" method="_on_Button_pressed"]
 [connection signal="pressed" from="XXX" to="XXX" method="_on_XXX_pressed"]
 [connection signal="pressed" from="browser" to="browser" method="_on_browser_pressed"]
 [connection signal="pressed" from="github" to="github" method="_on_github_pressed"]
-[connection signal="pressed" from="vk" to="vk" method="_on_vk_pressed"]
 [connection signal="pressed" from="exit" to="exit" method="_on_exit_pressed"]
 [connection signal="pressed" from="task" to="task" method="_on_task_pressed"]
+[connection signal="pressed" from="socialbutton" to="socialbutton" method="_on_social_button_pressed"]
 [connection signal="pressed" from="powershell" to="powershell" method="_on_power_pressed"]
 [connection signal="pressed" from="defender" to="defender" method="_on_defender_pressed"]
 [connection signal="pressed" from="regedit" to="regedit" method="_on_regedit_pressed"]
+[connection signal="pressed" from="StartUp" to="StartUp" method="_on_startup_pressed"]
+[connection signal="pressed" from="GenerateButton" to="GenerateButton" method="_on_btn_generate_password_pressed"]

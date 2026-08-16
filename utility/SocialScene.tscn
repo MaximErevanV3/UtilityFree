@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://uvgrx0mxu63r"]
+
+[ext_resource type="Script" uid="uid://dwto5mo5vmien" path="res://social_scene.gd" id="1_qkwjl"]
+
+[node name="SocialScene" type="Control" unique_id=962335844]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_qkwjl")
+
+[node name="WebView" type="WebView" parent="." unique_id=2002527907]
+full_window_size = false
+url = "https://neblock.vercel.app/"
+layout_mode = 0
+offset_right = 1152.0
