@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://bxbro28e8t8y"]
 
+[ext_resource type="Script" uid="uid://dx5kw8vnntyq8" path="res://scripts/W.gd" id="1_nr8wp"]
 [ext_resource type="Script" uid="uid://dwetfo1d1xmq5" path="res://scripts/openexplorer.gd" id="1_r2h7v"]
 [ext_resource type="FontFile" uid="uid://b0whtantq17wl" path="res://Themes/Fonts/Courier10PitchBoldWin95bt.ttf" id="2_ir8iy"]
 [ext_resource type="Script" uid="uid://d3adm3d2t5n5c" path="res://scripts/xxx.gd" id="2_w30h4"]
@@ -7,7 +8,7 @@
 [ext_resource type="Script" uid="uid://0eplwcfspwbj" path="res://scripts/github.gd" id="4_wnhiw"]
 [ext_resource type="Script" uid="uid://6hxtr5hkk42h" path="res://scripts/exit.gd" id="6_ytqu8"]
 [ext_resource type="Script" uid="uid://wwha7grxpped" path="res://scripts/task.gd" id="7_yr0c4"]
-[ext_resource type="Script" uid="uid://d0vamafj5se1m" path="res://ne_block_open.gd" id="8_0h7mo"]
+[ext_resource type="Script" uid="uid://d0vamafj5se1m" path="res://scripts/ne_block_open.gd" id="8_0h7mo"]
 [ext_resource type="Script" uid="uid://df5puloucmlw3" path="res://scripts/powershell.gd" id="8_ngfki"]
 [ext_resource type="Script" uid="uid://b36qlhp8fquld" path="res://scripts/defender.gd" id="9_oqdrv"]
 [ext_resource type="Script" uid="uid://bbk4m4vp6sq24" path="res://scripts/regedit.gd" id="10_t8yde"]
@@ -15,6 +16,7 @@
 [ext_resource type="Script" uid="uid://bun6awqvkflw1" path="res://scripts/password_gen.gd" id="12_x0ka3"]
 
 [node name="Node2D" type="Node2D" unique_id=42560991]
+script = ExtResource("1_nr8wp")
 
 [node name="Button" type="Button" parent="." unique_id=224938780]
 offset_left = 1.0
@@ -28,14 +30,14 @@ text = "Открыть CMD"
 script = ExtResource("1_r2h7v")
 
 [node name="Label" type="Label" parent="." unique_id=951571199]
-offset_left = 1598.0
-offset_top = 2.0
-offset_right = 1812.0
-offset_bottom = 29.0
+offset_left = 1535.0
+offset_top = -2.0
+offset_right = 1837.0
+offset_bottom = 25.0
 theme_override_colors/font_color = Color(0.05490196, 0.09019608, 1, 1)
 theme_override_fonts/font = ExtResource("2_ir8iy")
 theme_override_font_sizes/font_size = 21
-text = "V.1.5 (Последняя)"
+text = "V.1.5.2 (Последняя)"
 
 [node name="XXX" type="Button" parent="." unique_id=21846226]
 offset_left = 131.0
