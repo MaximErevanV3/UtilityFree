@@ -6,7 +6,7 @@
 
 🏷️ **Актуальная версия:** v1.5.2 • 🧪 **В разработке:** v1.5.3 (Декабрь 2026) • 📜 **Лицензия:** GPLv3 • 🪟 **ОС:** Windows 7–11
 
-📥 [Скачать v1.5.2](https://github.com) • 🌐 [Официальный сайт](https://vercel.app) • 💬 [Соцсеть NeBlock](https://vercel.app) • 🐞 [Сообщить об ошибке](https://github.com)
+📥 [Скачать v1.5.2](https://github.com/MaximErevanV3/UtilityFree/releases/tag/utilityfree1.5.2) • 🌐 [Официальный сайт](https://utility-freesite.vercel.app/) • 💬 [Соцсеть NeBlock](https://neblock.vercel.app) • 🐞 [Сообщить об ошибке](https://github.com/MaximErevanV3/UtilityFree/issues)
 
 </div>
 
@@ -60,7 +60,7 @@
 
 ## 📦 Установка и запуск
 
-1. 📥 Скачайте архив из раздела [Релизов](https://github.com).
+1. 📥 Скачайте архив из раздела [Релизов](https://github.com/MaximErevanV3/UtilityFree/releases/).
 2. 📂 Полностью распакуйте файлы в отдельную папку на диске.
 3. 🚀 Запустите `UtilityFree.exe`.
 
@@ -75,6 +75,6 @@
 
 <div align="center">
 
-**© 2026 [MaximErevanV3](https://github.com)** • Свободное ПО под лицензией [GNU GPLv3](https://github.com/UtilityFree/blob/main/LICENSE)
+**© 2026 [MaximErevanV3](https://github.com/MaximErevanV3)** • Свободное ПО под лицензией [GNU GPLv3](https://github.com/UtilityFree/blob/main/LICENSE)
 
 </div>
